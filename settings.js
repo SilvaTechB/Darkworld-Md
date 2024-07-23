@@ -1,11 +1,3 @@
-//base by DGXeon
-//re-upload? recode? copy code? give credit ya :)
-//YouTube: @DGXeon
-//Instagram: unicorn_xeon13
-//Telegram: t.me/xeonbotinc
-//GitHub: @DGXeon
-//WhatsApp: +916909137213
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
 
 const fs = require('fs')
 const chalk = require('chalk')
@@ -24,7 +16,7 @@ global.ownernumber = '254743706010' //ur owner number
 global.ownername = 'Xilva Tech 2024' //ur owner name
 global.websitex = "https://silvatech.vercel.app"
 global.wagc = "https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v"
-global.themeemoji = '🪀'
+global.themeemoji = '😈'
 global.wm = "Xilva Bot Inc."
 global.botscript = 'https://github.com/SilvaTechB/Darkworld-Md' //script link
 global.packname = "Sticker By"
