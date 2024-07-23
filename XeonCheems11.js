@@ -148,22 +148,22 @@ const xtime = moment.tz('Africa/Nairobi').format('HH:mm:ss')
 const xdate = moment.tz('Africa/Nairobi').format('DD/MM/YYYY')
 const time2 = moment().tz('Africa/Nairobi').format('HH:mm:ss')  
 if(time2 < "23:59:00"){
-var xeonytimewisher = `Good Night 🌌`
+var xeonytimewisher = `Good Night from Silva Tech 🌌`
  }
  if(time2 < "19:00:00"){
-var xeonytimewisher = `Good Evening 🌃`
+var xeonytimewisher = `Good Evening from Silva Tech 🌃`
  }
  if(time2 < "18:00:00"){
-var xeonytimewisher = `Good Evening 🌃`
+var xeonytimewisher = `Good Evening from Silva Tech 🌃`
  }
  if(time2 < "15:00:00"){
-var xeonytimewisher = `Good Afternoon 🌅`
+var xeonytimewisher = `Good Afternoon from Silva Tech 🌅`
  }
  if(time2 < "11:00:00"){
-var xeonytimewisher = `Good Morning 🌄`
+var xeonytimewisher = `Good Morning from Silva Tech 🌄`
  }
  if(time2 < "05:00:00"){
-var xeonytimewisher = `Good Morning 🌄`
+var xeonytimewisher = `Good Morning from Silva TecH🌄`
  } 
 //function
 const reSize = async(buffer, ukur1, ukur2) => {
@@ -603,7 +603,7 @@ var xeonlod = [
 "《 ███████▒▒▒▒▒》50%",
 "《 ██████████▒▒》80%",
 "《 ████████████》100%",
-"𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 🦄..."
+"DARKWORLD 𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 😈..."
 ]
 let { key } = await XeonBotInc.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
 
@@ -713,7 +713,7 @@ async function styletext(teks) {
         }
         //auto set bio\\
 	if (db.data.settings[botNumber].autobio) {
-            XeonBotInc.updateProfileStatus(`${botname} Have Been Running For ${runtime(process.uptime())}`).catch(_ => _)
+            XeonBotInc.updateProfileStatus(`${botname} MADE BY SILVA TECH. Have Been Running For ${runtime(process.uptime())}`).catch(_ => _)
         }
      //auto type record
         if (db.data.settings[botNumber].autorecordtype){
@@ -803,7 +803,7 @@ XeonBotInc.sendMessage(`${ownernumber}@s.whatsapp.net`,{text: `Hi Owner! wa.me/$
         if (db.data.chats[m.chat].antimedia && isMedia) {
         if (XeonTheCreator || isAdmins || !isBotAdmins){		  
         } else {
-          replygcxeon(`\`\`\`「 Media Detected 」\`\`\`\n\nSorry, but I have to delete it, because the admin/owner has activated anti-media for this group`)
+          replygcxeon(`\`\`\`「 Media Detected 」\`\`\`\n\nSorry, but I have to delete it, because the admin/owner/Silva has activated anti-media for this group`)
     return XeonBotInc.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: m.key.id, participant: m.key.participant }})
         }
   }
@@ -811,7 +811,7 @@ XeonBotInc.sendMessage(`${ownernumber}@s.whatsapp.net`,{text: `Hi Owner! wa.me/$
     if(isXeonMedia === "imageMessage"){
         if (XeonTheCreator || isAdmins || !isBotAdmins){		  
         } else {
-          replygcxeon(`\`\`\`「 Image Detected 」\`\`\`\n\nSorry, but I have to delete it, because the admin/owner has activated anti-image for this group`)
+          replygcxeon(`\`\`\`「 Image Detected 」\`\`\`\n\nSorry, but I have to delete it, because the admin/owner/silva has activated anti-image for this group`)
     return XeonBotInc.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: m.key.id, participant: m.key.participant }})
         }
     }
@@ -820,7 +820,7 @@ XeonBotInc.sendMessage(`${ownernumber}@s.whatsapp.net`,{text: `Hi Owner! wa.me/$
     if(isXeonMedia === "videoMessage"){
         if (XeonTheCreator || isAdmins || !isBotAdmins){		  
         } else {
-          replygcxeon(`\`\`\`「 Video Detected 」\`\`\`\n\nSorry, but I have to delete it, because the admin/owner has activated anti-video for this group`)
+          replygcxeon(`\`\`\`「 Video Detected 」\`\`\`\n\nSorry, but I have to delete it, because the admin/owner/silva has activated anti-video for this group`)
     return XeonBotInc.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: m.key.id, participant: m.key.participant }})
         }
     }
@@ -829,7 +829,7 @@ XeonBotInc.sendMessage(`${ownernumber}@s.whatsapp.net`,{text: `Hi Owner! wa.me/$
     if(isXeonMedia === "stickerMessage"){
         if (XeonTheCreator || isAdmins || !isBotAdmins){		  
         } else {
-          replygcxeon(`\`\`\`「 Sticker Detected 」\`\`\`\n\nSorry, but I have to delete it, because the admin/owner has activated anti-sticker for this group`)
+          replygcxeon(`\`\`\`「 Sticker Detected 」\`\`\`\n\nSorry, but I have to delete it, because the admin/owner/silva has activated anti-sticker for this group`)
     return XeonBotInc.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: m.key.id, participant: m.key.participant }})
         }
     }
@@ -931,7 +931,7 @@ if (XeonTheCreator) return replygcxeon(bvl)
         }
         if (db.data.chats[m.chat].antilink) {
             if (budy.match('http') && budy.match('https')) {
-               bvl = `\`\`\`「 Link Detected 」\`\`\`\n\nAdmin has sent a link, admin is free to send any link😇`
+               bvl = `\`\`\`「DARKWORLD MD from silva tech Link Detected 」\`\`\`\n\nAdmin has sent a link, admin is free to send any link😇`
 if (isAdmins) return replygcxeon(bvl)
 if (m.key.fromMe) return replygcxeon(bvl)
 if (XeonTheCreator) return replygcxeon(bvl)
@@ -944,7 +944,7 @@ if (XeonTheCreator) return replygcxeon(bvl)
 			            participant: m.key.participant
 			        }
 			    })
-			XeonBotInc.sendMessage(from, {text:`\`\`\`「 Link Detected 」\`\`\`\n\n@${m.sender.split("@")[0]} has sent a link and successfully deleted`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
+			XeonBotInc.sendMessage(from, {text:`\`\`\`「DARKWORLD MD from silva tech Link Detected 」\`\`\`\n\n@${m.sender.split("@")[0]} has sent a link and successfully deleted`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
             }
         }
         //afk
@@ -1551,7 +1551,7 @@ case 'listowner': {
             case 'shutdown':
                 if (!XeonTheCreator) return XeonStickOwner()
                 replygcxeon(`Restarting will be completed in seconds`)
-                await sleep(3000)
+                await sleep(1000)
                 process.exit()
             break
             case 'autoread':
@@ -2885,7 +2885,7 @@ ${themeemoji} URL: ${repoData.html_url}
 break
             case 'buypremium':
             case 'premiumuser': {
-                let teks = `Hi ${pushname}👋\nWant to Buy Premium?Just chat with the owner😉`
+                let teks = `Hi ${pushname}👋\nWant to Buy Premium?Just chat with silva😉`
                 await XeonBotInc.sendMessage(m.chat, {
                     text: teks,
                     contextInfo: {
