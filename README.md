@@ -53,6 +53,11 @@ Darkworld Bot Multi Device is a whatsapp bot created by <a href="https://github.
 
 ## `Generate Pair Code For Session`
 [![Silva](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Xeon-PairCode)
+1. a session will be sent on your whatsapp
+2. on your repo open a folder called session
+3. upload your cred.json in the folder
+4. save changes and deploy darkworld md in any of your trusted plaltform
+5. dont use koyeb
 
 ## ` BUILDPACKS`
 
