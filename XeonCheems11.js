@@ -1,11 +1,11 @@
 //base by DGXeon
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @DGXeon
-//Instagram: unicorn_xeon13
-//Telegram: t.me/xeonbotinc
-//GitHub: @DGXeon
-//WhatsApp: +916909137213
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
+//YouTube: @silvaedits254
+//Instagram: _its.silva
+//Telegram: t.me/silvatech
+//GitHub: @SilvaTechB
+//WhatsApp: +254743706010
+//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@silvaedits254
 
 require('./lib/listmenu')
 const {
@@ -144,9 +144,9 @@ let vote = db.data.others.vote = []
 let kuismath = db.data.game.math = []
 
 //time
-const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
-const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
+const xtime = moment.tz('Africa/Nairobi').format('HH:mm:ss')
+const xdate = moment.tz('Africa/Nairobi').format('DD/MM/YYYY')
+const time2 = moment().tz('Africa/Nairobi').format('HH:mm:ss')  
 if(time2 < "23:59:00"){
 var xeonytimewisher = `Good Night 🌌`
  }
