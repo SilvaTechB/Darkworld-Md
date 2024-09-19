@@ -1,7 +1,7 @@
 {
-  "name": "Darkworld-Md",
+  "name": "CheemsBot-MD",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/SilvaTechB/Darkworld-Md",
+  "repository": "https://github.com/DGXeon/CheemsBot-MD11",
   "logo": "https://pbs.twimg.com/media/FO7fojOakAAyYgt?format=jpg&name=900x900",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
