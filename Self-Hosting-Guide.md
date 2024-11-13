@@ -51,4 +51,4 @@
 
 # Don't want to do the hassle of setting up on your own PC?
 
- [Set it up on Heroku](https://github.com/LuckyYam/WhatsApp-bot/blob/master/Heroku-Hosting-Guide.md)
+ [Set it up on Heroku](https://github.com/SilvaTechB/Darkworld-Md/blob/master/Heroku-Hosting-Guide.md)
