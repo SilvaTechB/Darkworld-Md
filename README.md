@@ -26,7 +26,6 @@ DARKWORLD MD is an automated WhatsApp bot created by <a href="https://github.com
 </p>
 
 -------
-![DARKWORLD-MD Banner](https://github.com/SilvaTechB/DARKWORLD-MD/assets/banner.png)
 
 <div align='center'>
 
