@@ -12,7 +12,7 @@
 
  Run the following commands to clone the repo
  ```SH
-> git clone https://github.com/LuckyYam/WhatsApp-bot
+> git clone https://github.com/SilvaTechB/Darkworld-Md
 > cd WhatsApp-bot
  ```
 
@@ -23,7 +23,7 @@
 
  ## ⚠ Requirements
 
- - A cluster URI of the [MongoDB](https://www.mongodb.com/). You can get it by following the steps given [here](https://github.com/LuckyYam/WhatsApp-bot/blob/master/MongoDB-Guide.md)
+ - A cluster URI of the [MongoDB](https://www.mongodb.com/). You can get it by following the steps given [here](https://github.com/SilvaTechB/Darkworld-Md/blob/master/MongoDB-Guide.md)
 
  ## 🔧 Configuration
 
