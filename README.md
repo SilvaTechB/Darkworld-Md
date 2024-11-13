@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-DARKWORLD MD is an automated WhatsApp bot created by <a href="https://github.com/SilvaTechB" target="_blank">SilvaTechB</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Node.js</a>. Show some support by giving it a star ⭐!
+DARKWORLD MD is an automated WhatsApp bot created by <a href="https://github.com/SilvaTechB" target="_blank">SilvaTechB</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">BaileyS</a> and <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a>. Show some support by giving it a star ⭐!
 </p>
 
 <p align="center">
