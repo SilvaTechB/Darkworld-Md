@@ -8,7 +8,7 @@ DARKWORLD MD is an automated WhatsApp bot created by <a href="https://github.com
 </p>
 
 <p align="center">
-<a href="https://youtu.be/WiIqCdiDjFo"><img title="Tutorial" src="https://img.shields.io/badge/Watch%20Tutorial-Video-green"></a>
+<a href="https://youtu.be/"><img title="Tutorial" src="https://img.shields.io/badge/Watch%20Tutorial-Video-green"></a>
 </p>
 
 ------
@@ -35,16 +35,16 @@ DARKWORLD MD is an automated WhatsApp bot created by <a href="https://github.com
 </p>
 
 ## Support DARKWORLD MD
-- [FamPay](https://telegra.ph/file/8737b098fd5702daeb7e0.jpg)
+- [FamPay](https://telegra.ph/file/8737b098fd5702daeb7e0.jpg) 
 
 <p align="left">
 Scan the QR code above to support DARKWORLD MD via GooglePay, Paytm, PhonePe, and FamPay.
 </p>
 
 ## Bot Support Groups
-- [1st Support Group](https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS)
-- [2nd Support Group](https://chat.whatsapp.com/LS1Xx3fSqg7FpSYSjKWhL5)
-- [3rd Support Group](https://chat.whatsapp.com/EcycNbJFCVT5ZsG9xIGkqd)
+- [1st Support Group](https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbS)
+- [2nd Support Group](https://chat.whatsapp.com/LS1Xx3fSqg7SYSjKWhL5)
+- [3rd Support Group](https://chat.whatsapp.com/EcNbJFCVT5ZsG9xIGkqd)
 
 # Setup For Deployment
 
@@ -52,13 +52,6 @@ Scan the QR code above to support DARKWORLD MD via GooglePay, Paytm, PhonePe, an
 
 ## Scan QR Code For Session
 [![DARKWORLD MD](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@SilvaTechB/DarkWorld-MD-Qr-Code-Generator?output%20only=1&lite=1#index.js)
-
-## Settings
-- CHANGE OWNER NUMBER VCARD [Here](https://github.com/SilvaTechB/DARKWORLD-MD/blob/master/settings.js#L58)
-- CHANGE OWNER NUMBER MENU [Here](https://github.com/SilvaTechB/DARKWORLD-MD/blob/master/settings.js#L65)
-- CHANGE OWNER NUMBER TAG [Here](https://github.com/SilvaTechB/DARKWORLD-MD/blob/master/settings.js#L66)
-- CHANGE OWNER NAME [Here](https://github.com/SilvaTechB/DARKWORLD-MD/blob/master/settings.js#L59)
-- CHANGE BOT NAME [Here](https://github.com/SilvaTechB/DARKWORLD-MD/blob/master/settings.js#L67)
 
 ## Buildpacks for Heroku Deployment
 
