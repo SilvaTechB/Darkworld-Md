@@ -26,63 +26,94 @@ DARKWORLD MD is an automated WhatsApp bot created by <a href="https://github.com
 </p>
 
 -------
+![DARKWORLD-MD Banner](https://github.com/SilvaTechB/DARKWORLD-MD/assets/banner.png)
 
-## Connect With Me
-<p align="center">
-<a href="https://wa.me/254700143167"><img src="https://img.shields.io/badge/Contact SilvaTechB-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A"><img src="https://img.shields.io/badge/Subscribe SilvaTechB-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/@SilvaTechB" /><br>
-</p>
+<div align='center'>
 
-## Support DARKWORLD MD
-- [FamPay](https://telegra.ph/file/8737b098fd5702daeb7e0.jpg) 
+# DARKWORLD-MD Bot
 
-<p align="left">
-Scan the QR code above to support DARKWORLD MD via GooglePay, Paytm, PhonePe, and FamPay.
-</p>
+<a href='https://github.com/SilvaTechB/DARKWORLD-MD/releases'>
+  <img src='https://img.shields.io/github/v/release/SilvaTechB/DARKWORLD-MD?color=%231e81b0&label=version&style=for-the-badge'>
+</a>
+<a href='https://github.com/SilvaTechB/DARKWORLD-MD/blob/master/LICENSE'>
+  <img src='https://img.shields.io/github/license/SilvaTechB/DARKWORLD-MD?color=%231e81b0&style=for-the-badge'>
+</a>
 
-## Bot Support Groups
-- [1st Support Group](https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbS)
-- [2nd Support Group](https://chat.whatsapp.com/LS1Xx3fSqg7SYSjKWhL5)
-- [3rd Support Group](https://chat.whatsapp.com/EcNbJFCVT5ZsG9xIGkqd)
+</div>
 
-# Setup For Deployment
+---
 
-- FORK THE REPOSITORY [Here](https://github.com/SilvaTechB/DARKWORLD-MD/fork)
+<div align='center'>
+  
+## Deploy
+  
+<a href='https://heroku.com/deploy'>
+  <img src='https://www.herokucdn.com/deploy/button.png'>
+</a>
 
-## Scan QR Code For Session
-[![DARKWORLD MD](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@SilvaTechB/DarkWorld-MD-Qr-Code-Generator?output%20only=1&lite=1#index.js)
+<a href="https://vercel.com/new/git/external?repository-url=https://github.com/SilvaTechB/DARKWORLD-MD">
+  <img src="https://vercel.com/button" alt="Deploy with Vercel" />
+</a>
 
-## Buildpacks for Heroku Deployment
 
+</div>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SilvaTechB/DARKWORLD-MD/)
+---
 
-# Install Manually
-## Requirements
-* [Node.js](https://nodejs.org/en/)
-* [Git](https://git-scm.com/downloads)
-* [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip)
-* [Libwebp](https://developers.google.com/speed/webp/download)
-* Any text editor
+## 💈 Preview
 
-## Clone Repo & Install Dependencies
-```bash
-git clone https://github.com/SilvaTechB/DARKWORLD-MD.git
-cd DARKWORLD-MD
+- Fully Modular Design
+- Written in [TypeScript](https://www.typescriptlang.org/)
+- Built with [Baileys](https://github.com/whiskeysockets/baileys) (A Lightweight full-featured WhatsApp Library)
+- Powered by [ExpressJs](https://expressjs.com/)
+- Database handled via [MongoDB](https://www.mongodb.com/)
+- Self-Auth restoration
+- Easy configuration and setup
+- Extensive command library
 
-npm start
-TERMUX
-apt update
-apt upgrade
-pkg update && pkg upgrade
-pkg install bash
-pkg install libwebp
-pkg install git -y
-pkg install nodejs -y 
-pkg install ffmpeg -y 
-pkg install wget
-pkg install imagemagick -y
-git clone https://github.com/SilvaTechB/DARKWORLD-MD
-cd DARKWORLD-MD
-npm start
+## 📙 Guide
+
+- [Self Hosting Guide](https://github.com/SilvaTechB/DARKWORLD-MD/blob/master/Self-Hosting-Guide.md)
+- [Heroku Hosting Guide](https://github.com/SilvaTechB/DARKWORLD-MD/blob/master/Heroku-Hosting-Guide.md)
+- [Vercel Deployment Guide](https://github.com/SilvaTechB/DARKWORLD-MD/blob/master/Vercel-Deployment-Guide.md)
+- [Cloud Run Guide](https://github.com/SilvaTechB/DARKWORLD-MD/blob/master/Cloud-Run-Guide.md)
+
+## 💪 Contributing
+
+- Feel free to open issues regarding any problems or if you have any feature requests.
+- Make sure to follow the ESLint Rules while editing the code and run `yarn format` before opening a Pull Request.
+
+## 🎐 License
+
+DARKWORLD-MD is free and open-source software licensed under the [GNU Affero General Public License v3.0](https://github.com/SilvaTechB/DARKWORLD-MD/blob/master/LICENSE).
+
+## 🌟 Features
+
+- **Moderation:** Manage your groups with commands for muting, banning, and more.
+- **Fun & Games:** Play games, quizzes, and enjoy interactive features.
+- **Utilities:** Access tools like weather updates, translations, and more.
+- **Customization:** Personalize the bot's behavior with extensive configuration options.
+- **Security:** Enhanced security features to keep your chats safe and private.
+
+## 🛠️ Commands
+
+Here are some key commands available:
+
+| Command     | Description                             | Usage                   | Aliases                      |
+|-------------|-----------------------------------------|-------------------------|------------------------------|
+| `!mods`     | Displays the bot's moderators.         | `!mods`                 | `!mod`, `!owner`, `!moderators` |
+| `!ban`      | Ban a user from the group.              | `!ban @user`            | `!b`                         |
+| `!mute`     | Mute a user for a specified time.       | `!mute @user [time]`    | `!m`                         |
+| `!weather`  | Get weather updates for a location.     | `!weather [location]`   | `!w`                         |
+| `!translate`| Translate text to a specified language. | `!translate [text] [language]` | `!t`                         |
+
+## 📞 Contact
+
+For support or any questions, feel free to reach out:
+
+- **Developer:** Silva the Developer
+- **Contact Numbers:** +254700143167, +254743706010, +254755257907
+- **WhatsApp:** [Contact Silva](https://wa.me/254700143167)
+
+Thank you for using DARKWORLD-MD! We hope you enjoy the enhanced chat experience it offers. If you have any feedback or suggestions, let us know!
+
