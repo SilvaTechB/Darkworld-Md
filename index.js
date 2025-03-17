@@ -1,29 +1,16 @@
-/* Copyright (C) 2025 Codex.
-Licensed under the MIT License;
-you may not use this file except in compliance with the License.
-Codex - Ziyan
-*/
-
 const fs = require("fs").promises;
 const fsx = require("fs");
 const path = require("path");
 const config = require("./config");
 const connect = require("./lib/connection");
-const { getandRequirePlugins } = require("./lib/db/plugins");
-const { UpdateLocal, WriteSession, overrideConsoleLogs } = require("./lib");
+const { getandRequirePlugins, connectMongoDb } = require("./lib/db");
+const { UpdateLocal, WriteSession } = require("./lib");
 
 global.__basedir = __dirname;
 
-process.on('message', (data) => {
-    if (data.type === 'overrideLogs') {
-        // Override console methods in the worker process
-        overrideConsoleLogs();
-    }
-});
-
 async function auth() {
   try {
-    if (!fsx.existsSync("./lib/session/creds.json")) {
+    if (!fsx.existsSync("./lib/temp/session/creds.json")) {
       await WriteSession();
     }
     return initialize();
@@ -52,7 +39,7 @@ async function initialize() {
   try {
     await readAndRequireFiles(path.join(__dirname, "/lib/db/"));
     console.log("Syncing Database");
-    await config.DATABASE.sync();
+    await connectMongoDb();
     console.log("⬇  Installing Plugins...");
     await readAndRequireFiles(path.join(__dirname, "/plugins/"));
     await getandRequirePlugins();
