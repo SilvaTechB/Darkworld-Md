@@ -3,7 +3,7 @@ RUN apt-get update && \
     apt-get install -y git python3 build-essential && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
-RUN git clone https://github.com/c-o-d-e-xx/WhatsBixby.git /Bixby
+RUN git clone https://github.com/SilvaTechB/silva-wave-md.git /Wave
 
 WORKDIR /APEX
 RUN npm install @ffmpeg-installer/ffmpeg
