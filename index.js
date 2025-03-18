@@ -35,7 +35,7 @@ const readAndRequireFiles = async (directory) => {
 };
 
 async function initialize() {
-  console.log("============> WhatsBixby [Codex] <============");
+  console.log("============> silva wave md [SilvaTechB] <============");
   try {
     await readAndRequireFiles(path.join(__dirname, "/lib/db/"));
     console.log("Syncing Database");
