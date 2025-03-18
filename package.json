@@ -1,5 +1,5 @@
 {
-  "name": "WhatsBixby",
+  "name": "silva-wave-md",
   "version": "2.0.0",
   "description": "Advanced WhatsApp Bot",
   "main": "index.js",
@@ -66,16 +66,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/c-o-d-e-xx/WhatsBixby.git"
+    "url": "git+https://github.com/SilvaTechB/silva-wave-md.git"
   },
   "keywords": [
     "bot",
     "whatsapp"
   ],
-  "author": "Codex",
+  "author": "SilvaTechB",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/c-o-d-e-xx/WhatsBixby/issues"
+    "url": "https://github.com/SilvaTechB/silva-wave-md/issues"
   },
-  "homepage": "https://github.com/c-o-d-e-xx/WhatsBixby#readme"
+  "homepage": "https://github.com/SilvaTechB/silva-wave-md#readme"
 }
