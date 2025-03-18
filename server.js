@@ -130,7 +130,7 @@ app.post('/update', (req, res) => {
     return res.sendStatus(200); 
   });
 app.get('/', (req, res) => { res.sendFile(path.join(__dirname, 'lib/base/index.html')); });
-app.listen(port, () => console.log(`Bixby Server listening on port http://localhost:${port}`));
+app.listen(port, () => console.log(`silva Server listening on port http://localhost:${port}`));
 
 
  start("index.js");
